@@ -1,0 +1,18 @@
+@media print {
+
+  body * {
+    visibility: hidden;
+  }
+  #id_card * {
+    visibility: visible;
+  }
+  .id_card{  
+  	border: 0px solid #fff;
+  }
+  .id_card_bk{  
+  	border: 0px solid #fff;
+  }
+  .id_footer p{
+    color: #000;
+  }
+}

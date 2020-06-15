@@ -1,0 +1,234 @@
+
+@font-face{
+	font-family: 'Calibri';
+	src:url('../fonts/calibri.ttf');
+}
+@font-face{
+	font-family: 'AurulentSans-Bold';
+	src:url('../fonts/AurulentSans-Bold.otf');
+}
+
+@font-face{
+	font-family: 'AurulentSans-Regular';
+	src:url('../fonts/AurulentSans-Regular.otf');
+}
+@font-face{
+	font-family:'LiberationSans-Regular';
+	src:url('../fonts/LiberationSans-Regular.ttf');
+}
+@font-face{
+	font-family:'HelveticaNeue-Thin';
+	src:url('../fonts/HelveticaNeue-Thin.otf');
+}
+@font-face{
+	font-family: 'segoeui';
+	src:url('../fonts/segoeui.ttf');
+}
+
+*{margin:0;padding:0;}
+body{
+	font-size: 12px;
+	padding: 30px 0px;
+	line-height: 18px;
+	background: #F5F5F5;
+	color: #000;
+}
+
+
+td{
+	padding:0px 5px;
+}
+button{
+	width: 200px;
+	padding:10px 20px;
+	margin-top: 40px;
+	font-size: 40px;
+	background: #04A0D8;
+	color: #fff;
+	border:none;
+	cursor: pointer;
+	font-family: 'Calibri';
+
+}
+button:hover{
+	background:#FFA011;
+	color: #000;
+
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+.id_card{
+	position: relative;
+	width: 454px;
+	height: 288px;
+	border: 1px solid #aaa;
+	float: left;
+	margin: 12px;
+}
+.id_card_bg{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+.id_header{
+	height: 62px;
+}
+.id_header h4{
+	padding-top:45px; 
+	color: #B71410;
+	padding-left:105px;
+	font-family: Calibri;
+	font-size: 30px;
+	font-weight: normal;
+	position:absolute;
+	top: 0px;
+	left: 10px; 
+	z-index: 4;
+}
+.id_logo{
+	position:absolute;
+	top: 27px;
+	left: 15px; 
+	z-index: 2;
+}
+.slogan{
+	position: absolute;
+	top: 97px;
+	left: 114px;
+	z-index: 2;
+	letter-spacing: 3px;
+	font-size: 9px;
+	font-family: 'HelveticaNeue-Thin';
+}
+.id_content{
+	position: relative;
+	margin-top:5px;
+	padding: 10px;
+	z-index: 2;
+	padding-bottom:0px; 
+	overflow: hidden;
+}
+.id_text{
+	padding-top:45px;
+	font-family: 'AurulentSans-Regular';
+	overflow: hidden;
+	font-size: 16px;
+	line-height: 20px;
+}
+.id_photo{
+	position: absolute;
+	right: 15px;
+	top: 94px;
+	z-index: 2;
+}
+.id_photo img{
+	width:100px;
+	border:3px solid #eee;
+}
+.id_signature{
+	text-align: right;
+	padding-right: 15px;
+	overflow: hidden;
+	margin-top: 4px;
+	position: relative;
+	z-index: 2;
+}
+.singnature{
+	position: absolute;
+	right: 15px;
+	bottom: -5px;
+	z-index: 2;
+}
+.id_signature span{
+	border-top: 1px solid #666;
+	color: #000;
+	overflow: hidden;
+	font-family:'HelveticaNeue-Thin';
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 18px;
+}
+
+.id_footer{
+	overflow: hidden;
+	height: 28px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.id_footer p{
+	font-family:'LiberationSans-Regular';
+	letter-spacing: 6px;
+	font-size: 16px;
+	padding-top:5px;
+	color: #000;
+}
+
+/*****************************/
+
+.id_card_bk{
+	width: 454px;
+	height: 288px;
+	margin: 0 auto;
+	border: 1px solid #aaa;
+	float: left;
+	margin: 12px;
+	position: relative;
+}
+
+.id_card_bk_bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.id_card_content{
+	padding:10px 15px 0px 15px;
+	margin-top: 5px;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+.id_card_bk_left{
+	float: left;
+	font-family:'LiberationSans-Regular';
+	width: 200px;
+	margin-top: 15px;
+	position: relative;
+	z-index: 2;
+}
+.id_card_bk_left h2{
+	color: #333;
+}
+
+.id_card_bk_left .address{
+	margin-bottom: 8px;
+}
+
+.id_card_bk_right{
+	float: right;
+	font-family:'segoeui';
+	text-align: right;
+	font-size: 12px;
+	margin-top:16px;
+	position: relative;
+	z-index: 2;
+}
+.id_card_bk_right h2{
+	color: #333;
+}
+.address{
+	margin:2px 0px;
+}
+
+
+/************************************/
+/***********************************/
+
